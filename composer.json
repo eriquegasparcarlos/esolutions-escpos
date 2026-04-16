@@ -1,0 +1,33 @@
+{
+    "name": "eriquegasparcarlos/esolutions-escpos",
+    "description": "PHP client para impresión ESC/POS via ApiPeruDevPrint",
+    "type": "library",
+    "keywords": ["escpos", "thermal", "printer", "pos", "receipt"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erique Gaspar Carlos",
+            "email": "eriquegasparcarlos@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ESolutions\\Escpos\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ESolutions\\Escpos\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
